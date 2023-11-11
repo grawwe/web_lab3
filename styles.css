@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    height: 750px;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 85px;
+    background-color: #ded7d7;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 85px;
+    background-color: #0d0b0b;
+}
+
+.header_left{
+    width: 23%;
+    display: flex;
+    margin: 3px;
+}
+
+.header_middle{
+    width: 20%;
+    display: flex;
+}
+
+.header_right{
+    width: 64%;
+    display: flex;
+}
+
+.header_right_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 55px;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    opacity: .5;
+}
+
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    padding: 35px;
+    background-image: url("bg_pic.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.navigation{
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    width: 100%;
+    float: left;
+    height: 45px;
+    background-color: #504c49;
+    opacity: .8;
+}
+
+.bRight {
+    width: 30%;
+    height: 550px;
+    background-color: #504c49;
+    opacity: .8;
+    color: #d0bfbf;
+    font-size: 12pt;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Stalinist One', sans-serif;
+}
+
+.bLeft{
+    width: 70%;
+    height: 550px;
+    font-size: 18pt;
+    background-color: white;
+    font-family: 'Stalinist One', sans-serif;
+    color: dimgray;
+    opacity: 0.7;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 0 30px;
+}
+
+.bRight_photo{
+    background-image: url("grawwe_himself.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 510px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.navigation_text{
+    color: #d0bfbf;
+    font-family: 'Rubik Glitch', sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+
+.header_text{
+    text-align: center;
+    margin: 15px;
+    font-size: 18px;
+}
+
+.header_right_block_text{
+    font-family: 'Stalinist One', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    color: #0d0b0b;
+}
+
+.raw{
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+.block{
+    display: flex;
+    margin: 30px;
+    font-family: 'Rubik Glitch', sans-serif;
+    justify-content: center;
+    font-size: 40px;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    width: 30%;
+    height: 100px;
+    opacity: .8;
+    border-radius: 10px;
+}
+
+.footer_left{
+    width: 90%;
+    display: flex;
+}
+.footer_right{
+    width: 10%;
+    display: flex;
+}
+
+.footer_text{
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 7px;
+    font-size: 9px;
+    line-height: 35px;
+    color: aliceblue;
+    font-family: 'Stalinist One', sans-serif;
+}
+
+.links{
+    color: fuchsia;
+    text-decoration: none;
+}
